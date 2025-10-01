@@ -23,3 +23,42 @@
   color:#993f4c;
   font-size:.8em;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url('grass.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 20px solid #966F33;
+  border-radius: 20px;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+  font-size: 40px;
+}
+
+.white {
+  color: #000;
+  font-size: 40px;
+}
+
+.bord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
